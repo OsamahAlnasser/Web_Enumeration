@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+selenium
+webdriver-manager
+lxml
+whois
+dnspython

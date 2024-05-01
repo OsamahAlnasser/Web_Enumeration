@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="shortcut icon" href="/static/img/avatar.jpg">
+
+<meta name="author" content="RapidDNS">
+
+<meta name="description" content="RapidDNS is a domain name information query system that supports querying information about websites, subdomains and the same ip website. RapidDNS supports A, AAAA, CNAME, CERTIFICATE and MX  types.">
+
+<meta name="keywords" content="DNS,lookup,A,AAAA,CNAME,MX,CERTIFICATE,ssl,https,commond name,dns record,recon,pentest,bug bounty,hacker101,subdomain,same ip website,whois,web security,ipv4,ipv6,ip,network,RapidDNS  ,acme.com ">
+
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600" rel="stylesheet">
+
+<link rel="stylesheet" href="/static/css/bootstrap.css">
+
+<link rel="stylesheet" href="/static/css/main.css">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2244172923770966" crossorigin="anonymous"></script>
+
+<title> acme.com  Subdomain - RapidDNS Rapid DNS Information Collection</title>
+<script>
+        function query() {
+            keyword = document.getElementById("keyword").value;
+            if (keyword != "") {
+            
+                location.href = '/s/' + keyword + '#result'
+            
+            }
+        }
+    </script>
+</head>
+<body>
+
+<header id="header">
+<div class="container">
+<div class="row align-items-center justify-content-between d-flex">
+<div id="logo">
+<a href="/"><span class="text-white" style="font-size:30px;">RapidDNS</span></a>
+</div>
+<nav id="nav-menu-container">
+<ul class="nav-menu" class="nav navbar-nav">
+<li><a href="/">Home</a></li>
+<li><a href="/sameip">Reverse IP</a></li>
+<li><a href="/subdomain">Subdomain</a></li>
+<li><a href="https://blog.rapiddns.io">Blog</a></li>
+
+
+<li><a href="/tools">tools</a></li>
+<li><a href="https://twitter.com/rapiddns">Twitter</a></li>
+</ul>
+</nav>
+
+</div>
+</div>
+</header>
+
+
+<section class="home-banner-area relative">
+<div class="container">
+<div class="row fullscreen d-flex align-items-center justify-content-center">
+<div class="banner-content col-lg-8 col-md-12">
+<h1 class="wow fadeIn" data-wow-duration="2s">Search</h1>
+<p class="text-white">
+RapidDNS is a dns query tool which make querying subdomains or sites of a same ip easy!
+
+</p>
+<div class="input-wrap">
+<form action class="form-box d-flex justify-content-between" method="get">
+<input type="text" placeholder="Please input domain , keyword, ip, ip range" class="form-control" id="keyword" value="acme.com" />
+<button type="button" class="btn search-btn " onclick="query()">Query</button>
+</form>
+</div>
+<h4 class="text-white ">Examples</h4>
+<div class="courses pt-20">
+<a href="/s/52.74.223.119#result" data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">52.74.223.119</a>
+<a href="/s/apple#result" data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">apple</a>
+<a href="/s/twitter.com#result" data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">twitter.com</a>
+<a href="/s/2a03:2880:f231:c5:face:b00c:0:43fe#result" data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">2a03:2880:f231:c5:face:b00c:0:43fe</a>
+<a href="/s/129.134.0.0/16#result" data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">129.134.0.0/16</a>
+<div>
+</div>
+</div>
+</div>
+<div class="rocket-img">
+<img src="/static/img/rocket.png" alt>
+</div>
+</section>
+
+<section class="post-content-area">
+<div class="container" id="result">
+<div class="row">
+<div class="col-lg-12 posts-list" style="margin-top:20px;">
+<div class="d-flex align-items-left" style="justify-content: space-between;align-items: center; margin-bottom: 10px;">
+<div style="display: flex;flex: 1;overflow: hidden;white-space: nowrap; align-items: left;">
+<svg t="1586275261377" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5166" width="18" height="18" style="margin-right: 5px;"><path d="M861.866667 755.2c-12.8 0-21.333333-8.533333-21.333334-21.333333V328.533333c0-12.8 8.533333-21.333333 21.333334-21.333333s21.333333 8.533333 21.333333 21.333333v405.333334c0 12.8-8.533333 21.333333-21.333333 21.333333zM618.666667 998.4H213.333333c-55.466667 0-98.133333-42.666667-98.133333-98.133333V162.133333c0-55.466667 42.666667-98.133333 98.133333-98.133333h396.8c12.8 0 21.333333 8.533333 21.333334 21.333333s-8.533333 21.333333-21.333334 21.333334H213.333333c-29.866667 0-55.466667 25.6-55.466666 55.466666v738.133334c0 29.866667 25.6 55.466667 55.466666 55.466666h405.333334c12.8 0 21.333333 8.533333 21.333333 21.333334s-8.533333 21.333333-21.333333 21.333333z" fill="#1296db" p-id="5167"></path><path d="M776.533333 994.133333H682.666667c-12.8 0-21.333333-8.533333-21.333334-21.333333s8.533333-21.333333 21.333334-21.333333h93.866666c34.133333 0 64-29.866667 64-64v-85.333334c0-12.8 8.533333-21.333333 21.333334-21.333333s21.333333 8.533333 21.333333 21.333333v85.333334c0 59.733333-46.933333 106.666667-106.666667 106.666666z" fill="#1296db" p-id="5168"></path><path d="M857.6 358.4h-170.666667c-59.733333 0-106.666667-46.933333-106.666666-106.666667v-170.666666c0-12.8 8.533333-21.333333 21.333333-21.333334s21.333333 8.533333 21.333333 21.333334v170.666666c0 34.133333 29.866667 64 64 64h170.666667c12.8 0 21.333333 8.533333 21.333333 21.333334s-8.533333 21.333333-21.333333 21.333333z" fill="#1296db" p-id="5169"></path><path d="M857.6 345.6c-4.266667 0-12.8 0-17.066667-4.266667L597.333333 98.133333c-8.533333-8.533333-8.533333-21.333333 0-29.866666s21.333333-8.533333 29.866667 0l243.2 243.2c8.533333 8.533333 8.533333 21.333333 0 29.866666 0 4.266667-8.533333 4.266667-12.8 4.266667zM605.866667 477.866667h-384c-12.8 0-21.333333-8.533333-21.333334-21.333334s8.533333-21.333333 21.333334-21.333333h384c12.8 0 21.333333 8.533333 21.333333 21.333333s-8.533333 21.333333-21.333333 21.333334zM776.533333 563.2h-384c-12.8 0-21.333333-8.533333-21.333333-21.333333s8.533333-21.333333 21.333333-21.333334h384c12.8 0 21.333333 8.533333 21.333334 21.333334s-8.533333 21.333333-21.333334 21.333333zM307.2 563.2h-85.333333c-12.8 0-21.333333-8.533333-21.333334-21.333333s8.533333-21.333333 21.333334-21.333334h85.333333c12.8 0 21.333333 8.533333 21.333333 21.333334s-8.533333 21.333333-21.333333 21.333333z" fill="#1296db" p-id="5170"></path><path d="M776.533333 648.533333h-384c-12.8 0-21.333333-8.533333-21.333333-21.333333s8.533333-21.333333 21.333333-21.333333h384c12.8 0 21.333333 8.533333 21.333334 21.333333s-8.533333 21.333333-21.333334 21.333333z" fill="#1296db" p-id="5171"></path><path d="M307.2 648.533333h-85.333333c-12.8 0-21.333333-8.533333-21.333334-21.333333s8.533333-21.333333 21.333334-21.333333h85.333333c12.8 0 21.333333 8.533333 21.333333 21.333333s-8.533333 21.333333-21.333333 21.333333z" fill="#1296db" p-id="5172"></path></svg>
+</div>
+<div style="color:#39cfca;text-overflow:ellipsis;overflow:hidden;flex: 1;align:left">
+acme.com
+</div>
+<div style="margin: 0 8px;">Total: <span style="color: #39cfca; ">107</span></div>
+</div>
+<nav class="blog-pagination justify-content-center d-flex">
+<nav aria-label="..."><ul class="pagination  "><li class="page-item disabled"><span class="page-link"> &laquo; </span></li><li class="page-item active"><a class="page-link">1 <span class="sr-only">(current)</span></a></li><li class="page-item"><a class="page-link" href="/s/acme.com?page=2">2</a></li><li class="page-item"><a class="page-link" href="/s/acme.com?page=2" aria-label="Next"><span aria-hidden="true">&raquo;</span><span class="sr-only">Next</span></a></li></ul></nav>
+</nav>
+<div class="progress-table-wrap d-flex align-items-left ">
+<table class="table table-striped table-bordered " id="table" style="word-break:break-all; word-wrap:break-all;">
+<thead>
+<tr>
+<th scope="col " width="8%">#</th>
+<th scope="col " width="35%">Domain</th>
+<th scope="col " width="38%">Address</th>
+<th scope="col " width="8%">Type</th>
+<th scope="col " witdh="10%">Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row ">1</th>
+<td>gate.acme.com</td>
+<td><a href="/sameip/acme.com.#result" target="_blank" title="acme.com. same ip website, reverse ip">
+acme.com.
+</a>
+</td>
+<td>CNAME</td>
+<td>2023-07-25</td>
+</tr>
+<tr>
+<th scope="row ">2</th>
+<td>mapper.acme.com</td>
+<td><a href="/sameip/acme.com.#result" target="_blank" title="acme.com. same ip website, reverse ip">
+acme.com.
+</a>
+</td>
+<td>CNAME</td>
+<td>2023-07-25</td>
+</tr>
+<tr>
+<th scope="row ">3</th>
+<td>root.acme.com</td>
+<td><a href="/sameip/85.10.225.138#result" target="_blank" title="85.10.225.138 same ip website, reverse ip">
+85.10.225.138
+</a>
+</td>
+<td>A</td>
+<td>2023-07-24</td>
+</tr>
+<tr>
+<th scope="row ">4</th>
+<td>acme.com</td>
+<td><a href="/sameip/23.93.76.124#result" target="_blank" title="23.93.76.124 same ip website, reverse ip">
+23.93.76.124
+</a>
+</td>
+<td>A</td>
+<td>2023-07-24</td>
+</tr>
+<tr>
+<th scope="row ">5</th>
+<td>mail.acme.com</td>
+<td><a href="/sameip/23.93.76.124#result" target="_blank" title="23.93.76.124 same ip website, reverse ip">
+23.93.76.124
+</a>
+</td>
+<td>A</td>
+<td>2023-07-24</td>
+</tr>
+<tr>
+<th scope="row ">6</th>
+<td>www.acme.com</td>
+<td><a href="/sameip/acme.com.#result" target="_blank" title="acme.com. same ip website, reverse ip">
+acme.com.
+</a>
+</td>
+<td>CNAME</td>
+<td>2023-06-22</td>
+</tr>
+<tr>
+<th scope="row ">7</th>
+<td>www.mapper.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-20</td>
+</tr>
+<tr>
+<th scope="row ">8</th>
+<td>auth.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-17</td>
+</tr>
+<tr>
+<th scope="row ">9</th>
+<td>www.music.acme.com</td>
+<td><a href="/sameip/173.239.66.194#result" target="_blank" title="173.239.66.194 same ip website, reverse ip">
+173.239.66.194
+</a>
+</td>
+<td>A</td>
+<td>2022-11-16</td>
+</tr>
+<tr>
+<th scope="row ">10</th>
+<td>gate.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-16</td>
+</tr>
+<tr>
+<th scope="row ">11</th>
+<td>www.licensemaker.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-16</td>
+</tr>
+<tr>
+<th scope="row ">12</th>
+<td>mail.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-16</td>
+</tr>
+<tr>
+<th scope="row ">13</th>
+<td>licensemaker.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-15</td>
+</tr>
+<tr>
+<th scope="row ">14</th>
+<td>labelmaker.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-15</td>
+</tr>
+<tr>
+<th scope="row ">15</th>
+<td>www.mail.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-14</td>
+</tr>
+<tr>
+<th scope="row ">16</th>
+<td>photo.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-13</td>
+</tr>
+<tr>
+<th scope="row ">17</th>
+<td>www.pix.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-13</td>
+</tr>
+<tr>
+<th scope="row ">18</th>
+<td>patton.acme.com</td>
+<td><a href="/sameip/54.243.193.135#result" target="_blank" title="54.243.193.135 same ip website, reverse ip">
+54.243.193.135
+</a>
+</td>
+<td>A</td>
+<td>2022-11-13</td>
+</tr>
+<tr>
+<th scope="row ">19</th>
+<td>pix.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-12</td>
+</tr>
+<tr>
+<th scope="row ">20</th>
+<td>www.chumaker.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-12</td>
+</tr>
+<tr>
+<th scope="row ">21</th>
+<td>www.labelmaker.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-12</td>
+</tr>
+<tr>
+<th scope="row ">22</th>
+<td>beepbeep.acme.com</td>
+<td><a href="/sameip/jimrace.com.#result" target="_blank" title="jimrace.com. same ip website, reverse ip">
+jimrace.com.
+</a>
+</td>
+<td>CNAME</td>
+<td>2022-11-11</td>
+</tr>
+<tr>
+<th scope="row ">23</th>
+<td>mapper.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-11</td>
+</tr>
+<tr>
+<th scope="row ">24</th>
+<td>mail.rr.acme.com</td>
+<td><a href="/sameip/54.243.193.135#result" target="_blank" title="54.243.193.135 same ip website, reverse ip">
+54.243.193.135
+</a>
+</td>
+<td>A</td>
+<td>2022-11-10</td>
+</tr>
+<tr>
+<th scope="row ">25</th>
+<td>www.groupr.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-06</td>
+</tr>
+<tr>
+<th scope="row ">26</th>
+<td>online.acme.com</td>
+<td><a href="/sameip/135.180.1.12#result" target="_blank" title="135.180.1.12 same ip website, reverse ip">
+135.180.1.12
+</a>
+</td>
+<td>A</td>
+<td>2022-11-06</td>
+</tr>
+<tr>
+<th scope="row ">27</th>
+<td>www.pix.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">28</th>
+<td>www.photo.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">29</th>
+<td>www.patton.acme.com</td>
+<td><a href="/sameip/54.243.193.135#result" target="_blank" title="54.243.193.135 same ip website, reverse ip">
+54.243.193.135
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">30</th>
+<td>www.online.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">31</th>
+<td>www.mapper.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">32</th>
+<td>www.mail.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">33</th>
+<td>www.licensemaker.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">34</th>
+<td>www.labelmaker.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">35</th>
+<td>www.heartmaker.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">36</th>
+<td>www.groupr.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">37</th>
+<td>www.chumaker.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">38</th>
+<td>www.auth.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">39</th>
+<td>www.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">40</th>
+<td>watches.acme.com</td>
+<td><a href="/sameip/www.walshbrothers.co.uk.#result" target="_blank" title="www.walshbrothers.co.uk. same ip website, reverse ip">
+www.walshbrothers.co.uk.
+</a>
+</td>
+<td>CNAME</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">41</th>
+<td>pix.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">42</th>
+<td>photo.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">43</th>
+<td>online.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">44</th>
+<td>music.acme.com</td>
+<td><a href="/sameip/173.239.66.194#result" target="_blank" title="173.239.66.194 same ip website, reverse ip">
+173.239.66.194
+</a>
+</td>
+<td>A</td>
+<td>2021-11-06</td>
+</tr>
+<tr>
+<th scope="row ">45</th>
+<td>mail.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-05</td>
+</tr>
+<tr>
+<th scope="row ">46</th>
+<td>licensemaker.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-05</td>
+</tr>
+<tr>
+<th scope="row ">47</th>
+<td>hydra.acme.com</td>
+<td><a href="/sameip/192.100.66.26#result" target="_blank" title="192.100.66.26 same ip website, reverse ip">
+192.100.66.26
+</a>
+</td>
+<td>A</td>
+<td>2021-11-05</td>
+</tr>
+<tr>
+<th scope="row ">48</th>
+<td>heartmaker.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-05</td>
+</tr>
+<tr>
+<th scope="row ">49</th>
+<td>groupr.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-05</td>
+</tr>
+<tr>
+<th scope="row ">50</th>
+<td>gate.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-05</td>
+</tr>
+<tr>
+<th scope="row ">51</th>
+<td>dns1-charta.acme.com</td>
+<td><a href="/sameip/80.211.91.79#result" target="_blank" title="80.211.91.79 same ip website, reverse ip">
+80.211.91.79
+</a>
+</td>
+<td>A</td>
+<td>2021-11-05</td>
+</tr>
+<tr>
+<th scope="row ">52</th>
+<td>chumaker.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-05</td>
+</tr>
+<tr>
+<th scope="row ">53</th>
+<td>auth.acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-04</td>
+</tr>
+<tr>
+<th scope="row ">54</th>
+<td>acme.com</td>
+<td><a href="/sameip/157.131.111.93#result" target="_blank" title="157.131.111.93 same ip website, reverse ip">
+157.131.111.93
+</a>
+</td>
+<td>A</td>
+<td>2021-11-04</td>
+</tr>
+<tr>
+<th scope="row ">55</th>
+<td>rr.acme.com</td>
+<td><a href="/sameip/mail.rr.acme.com.#result" target="_blank" title="mail.rr.acme.com. same ip website, reverse ip">
+mail.rr.acme.com.
+</a>
+</td>
+<td>MX</td>
+<td>2021-11-03</td>
+</tr>
+<tr>
+<th scope="row ">56</th>
+<td>patton.acme.com</td>
+<td><a href="/sameip/mail.patton.acme.com.#result" target="_blank" title="mail.patton.acme.com. same ip website, reverse ip">
+mail.patton.acme.com.
+</a>
+</td>
+<td>MX</td>
+<td>2021-11-03</td>
+</tr>
+<tr>
+<th scope="row ">57</th>
+<td>music.acme.com</td>
+<td><a href="/sameip/mail.iq0.com.#result" target="_blank" title="mail.iq0.com. same ip website, reverse ip">
+mail.iq0.com.
+</a>
+</td>
+<td>MX</td>
+<td>2021-11-03</td>
+</tr>
+<tr>
+<th scope="row ">58</th>
+<td>mail.acme.com</td>
+<td><a href="/sameip/mail.acme.com.#result" target="_blank" title="mail.acme.com. same ip website, reverse ip">
+mail.acme.com.
+</a>
+</td>
+<td>MX</td>
+<td>2021-11-03</td>
+</tr>
+<tr>
+<th scope="row ">59</th>
+<td>gate.acme.com</td>
+<td><a href="/sameip/gate.acme.com.#result" target="_blank" title="gate.acme.com. same ip website, reverse ip">
+gate.acme.com.
+</a>
+</td>
+<td>MX</td>
+<td>2021-11-03</td>
+</tr>
+<tr>
+<th scope="row ">60</th>
+<td>broadcast.acme.com</td>
+<td><a href="/sameip/lloyd.d2g.com#result" target="_blank" title="lloyd.d2g.com same ip website, reverse ip">
+lloyd.d2g.com
+</a>
+</td>
+<td>CNAME</td>
+<td>2021-10-11</td>
+</tr>
+<tr>
+<th scope="row ">61</th>
+<td>dns1-si.acme.com</td>
+<td><a href="/sameip/213.143.80.90#result" target="_blank" title="213.143.80.90 same ip website, reverse ip">
+213.143.80.90
+</a>
+</td>
+<td>A</td>
+<td>2021-10-11</td>
+</tr>
+<tr>
+<th scope="row ">62</th>
+<td>bfi.acme.com</td>
+<td><a href="/sameip/194.8.148.14#result" target="_blank" title="194.8.148.14 same ip website, reverse ip">
+194.8.148.14
+</a>
+</td>
+<td>A</td>
+<td>2021-10-11</td>
+</tr>
+<tr>
+<th scope="row ">63</th>
+<td>beepbeep.acme.com</td>
+<td><a href="/sameip/jimrace.com#result" target="_blank" title="jimrace.com same ip website, reverse ip">
+jimrace.com
+</a>
+</td>
+<td>CNAME</td>
+<td>2021-10-11</td>
+</tr>
+<tr>
+<th scope="row ">64</th>
+<td>watches.acme.com</td>
+<td><a href="/sameip/www.walshbrothers.co.uk#result" target="_blank" title="www.walshbrothers.co.uk same ip website, reverse ip">
+www.walshbrothers.co.uk
+</a>
+</td>
+<td>CNAME</td>
+<td>2021-10-11</td>
+</tr>
+<tr>
+<th scope="row ">65</th>
+<td>www.mapper.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-06</td>
+</tr>
+<tr>
+<th scope="row ">66</th>
+<td>www.licensemaker.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-06</td>
+</tr>
+<tr>
+<th scope="row ">67</th>
+<td>www.heartmaker.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-06</td>
+</tr>
+<tr>
+<th scope="row ">68</th>
+<td>www.chumaker.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-06</td>
+</tr>
+<tr>
+<th scope="row ">69</th>
+<td>photo.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-06</td>
+</tr>
+<tr>
+<th scope="row ">70</th>
+<td>mapper.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-05</td>
+</tr>
+<tr>
+<th scope="row ">71</th>
+<td>mail.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-05</td>
+</tr>
+<tr>
+<th scope="row ">72</th>
+<td>licensemaker.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-05</td>
+</tr>
+<tr>
+<th scope="row ">73</th>
+<td>labelmaker.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-05</td>
+</tr>
+<tr>
+<th scope="row ">74</th>
+<td>heartmaker.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-05</td>
+</tr>
+<tr>
+<th scope="row ">75</th>
+<td>groupr.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-05</td>
+</tr>
+<tr>
+<th scope="row ">76</th>
+<td>gate.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-05</td>
+</tr>
+<tr>
+<th scope="row ">77</th>
+<td>chumaker.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-04</td>
+</tr>
+<tr>
+<th scope="row ">78</th>
+<td>auth.acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-04</td>
+</tr>
+<tr>
+<th scope="row ">79</th>
+<td>acme.com</td>
+<td><a href="/sameip/157.131.140.122#result" target="_blank" title="157.131.140.122 same ip website, reverse ip">
+157.131.140.122
+</a>
+</td>
+<td>A</td>
+<td>2021-10-04</td>
+</tr>
+<tr>
+<th scope="row ">80</th>
+<td>rr.acme.com</td>
+<td><a href="/sameip/mail.rr.acme.com#result" target="_blank" title="mail.rr.acme.com same ip website, reverse ip">
+mail.rr.acme.com
+</a>
+</td>
+<td>MX</td>
+<td>2021-10-03</td>
+</tr>
+<tr>
+<th scope="row ">81</th>
+<td>music.acme.com</td>
+<td><a href="/sameip/mail.iq0.com#result" target="_blank" title="mail.iq0.com same ip website, reverse ip">
+mail.iq0.com
+</a>
+</td>
+<td>MX</td>
+<td>2021-10-03</td>
+</tr>
+<tr>
+<th scope="row ">82</th>
+<td>mail.acme.com</td>
+<td><a href="/sameip/mail.acme.com#result" target="_blank" title="mail.acme.com same ip website, reverse ip">
+mail.acme.com
+</a>
+</td>
+<td>MX</td>
+<td>2021-10-03</td>
+</tr>
+<tr>
+<th scope="row ">83</th>
+<td>gate.acme.com</td>
+<td><a href="/sameip/gate.acme.com#result" target="_blank" title="gate.acme.com same ip website, reverse ip">
+gate.acme.com
+</a>
+</td>
+<td>MX</td>
+<td>2021-10-03</td>
+</tr>
+<tr>
+<th scope="row ">84</th>
+<td>www.pix.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-05</td>
+</tr>
+<tr>
+<th scope="row ">85</th>
+<td>www.photo.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-05</td>
+</tr>
+<tr>
+<th scope="row ">86</th>
+<td>www.online.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-05</td>
+</tr>
+<tr>
+<th scope="row ">87</th>
+<td>www.mail.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-05</td>
+</tr>
+<tr>
+<th scope="row ">88</th>
+<td>www.licensemaker.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-05</td>
+</tr>
+<tr>
+<th scope="row ">89</th>
+<td>www.labelmaker.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-05</td>
+</tr>
+<tr>
+<th scope="row ">90</th>
+<td>www.heartmaker.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-05</td>
+</tr>
+<tr>
+<th scope="row ">91</th>
+<td>www.groupr.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-05</td>
+</tr>
+<tr>
+<th scope="row ">92</th>
+<td>www.chumaker.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-05</td>
+</tr>
+<tr>
+<th scope="row ">93</th>
+<td>www.auth.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-05</td>
+</tr>
+<tr>
+<th scope="row ">94</th>
+<td>pix.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-04</td>
+</tr>
+<tr>
+<th scope="row ">95</th>
+<td>photo.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-04</td>
+</tr>
+<tr>
+<th scope="row ">96</th>
+<td>mapper.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-04</td>
+</tr>
+<tr>
+<th scope="row ">97</th>
+<td>mail.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-04</td>
+</tr>
+<tr>
+<th scope="row ">98</th>
+<td>licensemaker.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-04</td>
+</tr>
+<tr>
+<th scope="row ">99</th>
+<td>labelmaker.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-04</td>
+</tr>
+<tr>
+<th scope="row ">100</th>
+<td>heartmaker.acme.com</td>
+<td><a href="/sameip/135.180.1.14#result" target="_blank" title="135.180.1.14 same ip website, reverse ip">
+135.180.1.14
+</a>
+</td>
+<td>A</td>
+<td>2021-09-04</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+
+
+<section class="about-area ">
+<div class="container">
+<div class="row align-items-center justify-content-center" style="padding:30px">
+<div class="col-lg-5 col-md-6 about-left">
+<img class="img-fluid" src="/static/img/avatar.jpg" alt>
+</div>
+<div class="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
+<h1>
+Rapiddns has <b>5 billion</b> DNS data and supports 4 DNS types
+</h1>
+<div class="wow fadeIn" data-wow-duration="1s">
+<p>
+Rapiddns currently has more than 5 billion DNS resolution data, supporting A, CNAME, AAAA, MX types. A records 3.1 billion, CNAME records 760 million, AAAA records 395 million and MX records 886 million. Can query the domain name of the same IP website (support IPv6). You can also
+query subdomain information.
+</p>
+<p>
+</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+ 
+<footer class="footer-area">
+<div class="container">
+<div class="footer-bottom row align-items-center" style="padding:30px;">
+<p class="footer-text col-lg-8 col-md-12">
+Copyright &copy;
+<script>
+                    document.write(new Date().getFullYear());
+                </script> - <a href="https://RapidDNS.io">RapidDNS</a> All rights reserved
+</p>
+<div class="col-lg-4 col-md-12 footer-social">
+<a href="https://hackerone.com/rapiddns"><i class="fa fa-dribbble"></i></a>
+<a href="https://twitter.com/rapiddns"><i class="fa fa-twitter"></i></a>
+</div>
+</div>
+</div>
+</footer>
+
+
+<div id="back-top">
+<a title="Go to Top" href="#"></a>
+</div>
+
+<script src="/static/js/vendor/jquery-2.2.4.min.js"></script>
+
+<script src="/static/js/vendor/bootstrap.min.js"></script>
+
+<script src="/static/js/jquery.ajaxchimp.min.js"></script>
+<script src="/static/js/superfish.min.js"></script>
+<script src="/static/js/jquery.counterup.min.js"></script>
+<script src="/static/js/jquery.magnific-popup.min.js"></script>
+<script src="/static/js/wow.min.js"></script>
+<script src="/static/js/main.js"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-162759868-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-162759868-1');
+</script>
+
+<script>
+        $("#keyword ").bind('keypress', function (event) { 
+	         if (event.keyCode == 13) 
+	         {  
+	         		 event.preventDefault();
+	             query();
+	         }  
+     		});
+        </script>
+-->
+</body>
+</html>
